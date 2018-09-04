@@ -11,8 +11,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @MapperScan("com.example.demo.mapper")
 @EnableScheduling
 @Configuration
-@ComponentScan(basePackageClasses = DemoApplication.class,
-		excludeFilters = @ComponentScan.Filter(SpringBootApplication.class))
 public class DemoApplication {
 
 	public static void main(String[] args) {
